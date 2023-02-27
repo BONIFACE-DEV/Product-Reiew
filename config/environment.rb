@@ -11,8 +11,8 @@ require_all 'app/models'
  product = Product.first
  user = User.first
 
- product.leave_review(user, 4, "Great product!")
- product.leave_review(user, 3, "Good product, could be better.")
+ product.leave_review(user, 1, "Great product!")
+ product.leave_review(user, 2, "Good product, could be better.")
 
  product.print_all_reviews
 
