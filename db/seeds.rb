@@ -7,13 +7,15 @@ puts "🌱 Seeding data..."
     )
 end
 
+#creating 10 user samples
 10.times do
     User.create(
         name: Faker::Name.name
     )
 end
 
-5.times do
+#creating 10 reviews samples
+10.times do
     Review.create(
         star_rating: rand(0..5),
         comment: Faker::Lorem.sentence,
