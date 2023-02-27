@@ -1,6 +1,14 @@
 # Product-Reiew
 This is a simple app for reviewing products. Users can review products they've used and see reviews from other users.
 
+
+##  Entity Relational Diagram
+
+![ERD diagram ](/ERD.png)
+
+
+
+
 ## Installation
 To install the app, clone the repository and run bundle install to install the required gems:
 
@@ -87,3 +95,6 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/BONIFA
 
 #  License
 The app is available as open source under the terms of the MIT License.
+
+
+
